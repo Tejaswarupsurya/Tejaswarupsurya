@@ -10,6 +10,7 @@
 </p>
 
 ---
+
 ### 🚀 Tech Stack & Tools
 #### Languages
 ![C](https://img.shields.io/badge/C-27338e?style=flat-square&logo=c&logoColor=white)
@@ -18,16 +19,21 @@
 ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
 <img align="right" alt="Coding" width="350" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
+
 #### Frontend
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react)
+
 #### Backend & DB
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Nodemailer](https://img.shields.io/badge/Nodemailer-0078D4?style=flat-square&logo=gmail&logoColor=white)
+![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white)
 
 #### DevOps & Tools
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
@@ -39,23 +45,25 @@
 
 ### 💼 Featured Project
 
-#### 🎯 [Joya – Smart Travel Listing Platform](https://github.com/Tejaswarupsurya/Joya)
+#### 🎯 [Joya – Full-Stack Travel Platform](https://github.com/Tejaswarupsurya/Joya)
 
-A feature-rich full-stack application built with the **MERN stack**, designed to help users discover and list travel stays.
+A comprehensive full-stack travel platform to explore, book, and manage unique homestays and experiences — built using the **MERN stack with EJS**.  
 
-> ✅ **Live Demo:** [joya-acbg.onrender.com/listings](https://joya-acbg.onrender.com/listings)
+> ✅ **Live Demo:** [joya-acbg.onrender.com](https://joya-acbg.onrender.com/listings)
 
-**Key Features:**
-- 🔒 **Fully Functional User Authentication & Authorization System**
-- 🧠 **Search Engine with Category Filters**  
-- 🌍 **Interactive Map with Location Picker** (Mapbox)  
-- 🏷️ **Tag Toggle System** for filtering by amenities
+**Key Features (v2.0):**
+- 🧳 **Complete Booking System** — End-to-end reservation flow with automated cleanup  
+- 🏠 **Host & Admin Dashboards** — Role-based management and analytics  
+- 📧 **OTP Authentication & Automated Emails** — Verification, booking confirmations, and password resets via Nodemailer  
+- ❤️ **Wishlist System** — Save and manage favorite listings  
+- 🧪 **Testing Suite (74% Coverage)** — Jest-based unit and integration testing  
+- 🌍 **Mapbox Integration** — Interactive maps with location picker  
 - 📸 **Image Upload with Cloudinary**  
-- 🗂️ **MVC Architecture** (Clean folder structure)  
-- 📝 **User Reviews & Ratings**      
-- 🎨 **Responsive UI with Bootstrap**
+- 🔍 **Search Analytics & Category Filters**  
+- 🧱 **MVC Architecture** — Clean structure for scalability and maintainability  
+- 🎨 **Responsive UI with Bootstrap 5 & Custom CSS**
 
-> Built for real-world scalability and structured with maintainability in mind.
+> Built with production-grade best practices, focusing on scalability, maintainability, and real-world workflows.
 
 ---
 
@@ -79,6 +87,6 @@ A feature-rich full-stack application built with the **MERN stack**, designed to
 ---
 
 <p align="center">
-  ⚡️ I believe in hardword, consistency, continuous learning, and solving real-world problems with code.
+  ⚡️ I believe in hard work, consistency, continuous learning, and solving real-world problems with code.
 </p>
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=D9BED1&height=120&section=footer" alt="footer"/>
