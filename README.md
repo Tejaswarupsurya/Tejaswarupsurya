@@ -45,25 +45,42 @@
 
 ### 💼 Featured Project
 
-#### 🎯 [Joya – Full-Stack Travel Platform](https://github.com/Tejaswarupsurya/Joya)
+#### 🏨 [Joya – Production-Ready Travel Booking Platform](https://github.com/Tejaswarupsurya/Joya)
 
-A comprehensive full-stack travel platform to explore, book, and manage unique homestays and experiences — built using the **MERN stack with EJS**.  
+A **enterprise-grade full-stack travel accommodation platform** featuring secure payments, real-time email notifications, and complete DevOps pipeline — built with **Node.js, Express, MongoDB, and modern CI/CD practices**.
 
-> ✅ **Live Demo:** [joya-acbg.onrender.com](https://joya-acbg.onrender.com/listings)
+> 🚀 **Live:** [AWS EC2 Deployment](http://44.223.41.189/)
 
-**Key Features (v2.0):**
-- 🧳 **Complete Booking System** — End-to-end reservation flow with automated cleanup  
-- 🏠 **Host & Admin Dashboards** — Role-based management and analytics  
-- 📧 **OTP Authentication & Automated Emails** — Verification, booking confirmations, and password resets via Nodemailer  
-- ❤️ **Wishlist System** — Save and manage favorite listings  
-- 🧪 **Testing Suite (74% Coverage)** — Jest-based unit and integration testing  
-- 🌍 **Mapbox Integration** — Interactive maps with location picker  
-- 📸 **Image Upload with Cloudinary**  
-- 🔍 **Search Analytics & Category Filters**  
-- 🧱 **MVC Architecture** — Clean structure for scalability and maintainability  
-- 🎨 **Responsive UI with Bootstrap 5 & Custom CSS**
+---
 
-> Built with production-grade best practices, focusing on scalability, maintainability, and real-world workflows.
+**🎯 Core Features:**
+- 💳 **Stripe Payment Integration** — Real checkout with webhook verification & booking confirmations
+- 📧 **6-Type Transactional Email System** — OTP verification, password resets, booking notifications (SMTP/Nodemailer)
+- 🔐 **JWT-Based OTP Auth** — Secure email verification with 60s cooldown & 10-min expiry
+- 🏠 **Multi-Role Dashboards** — Guest, User, Host, and Admin with role-based access control
+- 📅 **Smart Booking Management** — Real-time availability checking, auto-expiration (24h TTL), cancellation emails
+- 🔍 **Advanced Search Engine** — Text indexes, synonym expansion, analytics tracking
+- 🗺️ **Mapbox Integration** — Interactive maps with geocoding API
+- 📸 **Cloudinary CDN** — Optimized image hosting with transformations
+
+**🚀 DevOps & Infrastructure:**
+- 🐳 **Multi-Stage Docker Build** — Optimized production images with builder pattern
+- ⚙️ **Complete CI/CD Pipeline** — GitHub Actions with dual runners (GitHub-hosted + Self-hosted on EC2)
+- ☁️ **AWS EC2 Deployment** — Production server with automated deployment workflow
+- 🧪 **Jest Test Suite** — Unit & integration tests with 74% coverage
+- 🔄 **Automated Workflows** — Test → Build → Deploy on every push to main
+
+**🛠️ Tech Stack:**
+- **Backend:** Node.js 22, Express 5, MongoDB Atlas, Mongoose, Passport.js
+- **Payment:** Stripe Checkout API with webhooks
+- **Email:** Nodemailer (SMTP on port 587/TLS) with HTML templates
+- **Auth:** JWT for OTP, PBKDF2 password hashing, session management
+- **Cloud:** Cloudinary (images), Mapbox (maps), AWS EC2 (hosting)
+- **DevOps:** Docker, GitHub Actions, Self-Hosted Runner
+- **Testing:** Jest, Supertest
+- **Frontend:** EJS, Bootstrap 5, Vanilla JS
+
+> 🏆 **Built with production-grade architecture, security best practices, and complete DevOps automation from development to deployment.**
 
 ---
 
